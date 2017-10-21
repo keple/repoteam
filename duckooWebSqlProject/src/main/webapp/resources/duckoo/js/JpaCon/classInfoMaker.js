@@ -1,7 +1,7 @@
 var classInfoMaker = (function(){
 	
 	var targetNode;
-	//이미 뒤진 코드입니다.
+	
 
 	//이걸 사용할 예정 오류나면 이전거로 돌려야됨.
 	var mkClassInfo = function(targetEntity){

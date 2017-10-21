@@ -11,7 +11,7 @@ var propMaker = (function(){
 		
         var ownPk = injectedPk;
         console.log("onwPK:",ownPk);
-        //이새긴 무조건 싱글키.
+        // 무조건 싱글키.
         if(ownPk.length==0){
             var newPk = new property();
             newPk.pName = (targetEntity.name).toLowerCase() + "_generation_id";
@@ -103,7 +103,7 @@ var propMaker = (function(){
 						refProp.addJoinTable(relation.target);
 						refProp.columnName = relation.target.toUpperCase();
 						var joincolumns = ((relation.name).split("_")[1]).split("/");
-						console.log("조인컬럼 시발아 :",joincolumns);
+						console.log("조인컬럼 :",joincolumns);
 						console.log("릴레이션은 살아잇냐",relation);
 						for(var k in joincolumns){
 							refProp.addJoinColumn(EntityManager.getEntityByName(relation.target).search({id:Number(joincolumns[k])})[0]);
@@ -231,7 +231,7 @@ var propMaker = (function(){
 						refProp.addJoinTable(relation.target);
 						refProp.columnName = relation.target.toUpperCase();
 						var joincolumns = ((relation.name).split("_")[1]).split("/");
-						console.log("조인컬럼 시발아 :",joincolumns);
+						console.log("조인컬럼  :",joincolumns);
 						console.log("릴레이션은 살아잇냐",relation);
 						for(var k in joincolumns){
 							
