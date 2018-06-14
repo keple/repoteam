@@ -1,4 +1,4 @@
-
+/*
 	$(window).on("load",function() {
 		   
 	      // will first fade out the loading animation 
@@ -111,7 +111,7 @@
 		
 		
 		
-	});
+	});*/
 	
 	
 

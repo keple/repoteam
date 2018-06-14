@@ -1,17 +1,4 @@
 var property = (function(){
-	var annotations;
-	var isReferenced;
-	var pName;
-	var columnName;
-	var dataType;
-	var joinedColumn;
-	var relations;
-	var joinedTable;
-	var NodeidsForPK;
-	var mark;
-	var tableName;
-	
-	
 	
 	function property(){
 		this.annotations = [];

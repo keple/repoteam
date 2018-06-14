@@ -34,12 +34,12 @@
   crossorigin="anonymous"></script>
 <link rel="stylesheet" href="/resources/font-awesome-4.7.0/css/font-awesome.min.css">
 <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
-<script src="https://apis.google.com/js/platform.js" async defer></script>
+<!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
     <link rel="stylesheet" href="/resources/mains/css/base.css">  
     <link rel="stylesheet" href="/resources/mains/css/main.css">
     <link rel="stylesheet" href="/resources/mains/css/vendor.css">     
 	<script src="/resources/mains/js/modernizr.js"></script>
-<script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
+<!-- <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script> -->
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
 

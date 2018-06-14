@@ -35,7 +35,6 @@ var classInfoMaker = (function(){
         
     }
 	
-	return{makeClassInfo:makeClassInfo,
-		mkClassInfo:mkClassInfo}
+	return{mkClassInfo:mkClassInfo}
 	
 })();
